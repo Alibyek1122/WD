@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls')), # api қолданбасының url-дарын қосамыз
+    path('api/', include('api.urls')), # API giin URl iig nemne
 ]
